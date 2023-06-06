@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Eventos</title>
+    <style>
+        .contPers{
+            background-color: #00008b;
+            color: white;
+            width: 150px;
+            height: 50px;
+            padding:40px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Eventos Onclic no Javascript</h2>
+    <button onclick="carregarConteudo()">Carregar conteúdo</button>
+    <p id="conteudo"></p>
+
+
+    <h2>Eventos - Onmouseover e onmouseout</h2>
+    <div onmouseover="mouseOver()" onmouseout="onmouseOut()" class="contPers" id="mouseAlt">Passe o mouse</div>
+
+
+
+    <h2>Eventos - Onchange e Onkeyup</h2>
+    <form>
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" onchange="converTexto()"><br><br>
+
+        <label for="senha">Senha</label>
+        <input type="password" name="senha" id="senha" onkeyup="validarSenha()"><br>
+        <p id="erroSenha"></p>
+    </form>
+    <script src="eventos.js"></script>
+
+</body>
+
+</html>
