@@ -2,8 +2,8 @@
 
  # - Javascript - Fundamentos de javascript:
  
- # Introdução ao javascript " sintaxi da linguagem";
- # Declaração das variáveis;
+  Introdução ao javascript " sintaxi da linguagem";
+  Declaração das variáveis;
  # Constantes;
  # Concatenação;
  # Operadores Matemáticos;
