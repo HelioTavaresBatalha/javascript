@@ -1,6 +1,6 @@
 ## Javascript !!!
 
- # - Javascript - Fundamentos de javascript:
+ ** Javascript - Fundamentos de javascript:
  
  - Introdução ao javascript " sintaxi da linguagem";
  - Declaração das variáveis;
